@@ -1,0 +1,11 @@
+html(ng-app='app')
+  head
+    link(rel='stylesheet', type='text/css', href='assets/styles/styles.css')
+  body(ng-controller='tdd')
+    h1 welcome {{title}}
+    #list(ng-repeat='product in products')
+      li {{product.title}}
+    script(src='assets/scripts/vendor.js')
+    script(src='app/app.js')
+    script(src='app/products.js')
+    script(src='assets/scripts/scripts.js')

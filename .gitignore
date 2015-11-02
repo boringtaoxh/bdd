@@ -1,0 +1,12 @@
+### NPM ###
+npm-debug.log
+node_modules
+
+
+### Bower ###
+vendor
+
+
+### Gulp ###
+public/assets/css
+public/assets/js
